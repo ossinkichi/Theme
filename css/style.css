@@ -1,0 +1,56 @@
+.dark{
+    background-color: #4c545c;
+}
+
+.light{
+    background-color: #c7cbce;
+}
+
+.theme{
+    width: 100vw;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.themeDark{
+    width: 120px;
+    height: 40px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #4c545c;
+    color: #c7cbce;
+
+    font-size: 22px;
+
+    cursor: pointer;
+}
+
+.themeDark:hover{
+    border: 2px solid #c7cbce;
+}
+
+.themeLight{
+    width: 120px;
+    height: 40px;
+
+    border: none;
+    border-radius: 6px;
+
+    color: #4c545c;
+    background: #c7cbce;
+
+    font-size: 22px;
+
+    cursor: pointer;
+}
+
+.themeLight:hover{
+    border: 2px solid #4c545c;
+}
